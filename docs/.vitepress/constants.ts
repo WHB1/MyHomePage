@@ -1,0 +1,6 @@
+export const appName = 'WHB'
+export const appBase = '/myhp/'
+export const appLang = 'zh-CN'
+export const appsrcDir = './src'
+export const apiUrl = ''
+export const apiKey = ''

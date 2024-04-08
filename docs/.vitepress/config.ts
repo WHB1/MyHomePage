@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 // import { useSidebar } from 'vitepress/theme'
+// import sidebarConfig from './generateSidebar'
+// console.log(sidebarConfig, 'sidebarConfig===')
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
