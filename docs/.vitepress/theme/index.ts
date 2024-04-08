@@ -2,8 +2,9 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import MyBlog from './customLayout/MyBlog.vue'
 import './style.css'
-
+import './custom.css'
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -13,5 +14,6 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     // ...
-  }
+    app.component('blog', MyBlog)
+  },
 } satisfies Theme
